@@ -4348,8 +4348,6 @@
                 return t instanceof Error
         }
     }
-    var Et = document.location.hostname;
-    Et.endsWith("poki-gdn.com") && (Et = "poki-gdn.com");
     var xt, Tt = Date.now(),
         zt = (xt = new RegExp("poki_erruid" + "=([^;]+)(?:;|$)").exec(document.cookie)) ? xt[1] : "";
 
